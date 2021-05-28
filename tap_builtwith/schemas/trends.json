@@ -1,0 +1,45 @@
+{
+	"selected": true,
+	"type": [
+		"null",
+		"object"
+	],
+	"additionalProperties": false,
+	"properties": {
+		"technology": {
+			"type": "string"
+		},
+		"date": {
+			"type": "string",
+			"format": "date-time"
+		},
+		"ten_k": {
+			"type": [
+				"null",
+				"number"
+			],
+			"format": "integer"
+		},
+		"hundred_k": {
+			"type": [
+				"null",
+				"number"
+			],
+			"format": "integer"
+		},
+		"million": {
+			"type": [
+				"null",
+				"number"
+			],
+			"format": "integer"
+		},
+		"live": {
+			"type": [
+				"null",
+				"number"
+			],
+			"format": "integer"
+		}
+	}
+}
